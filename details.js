@@ -1,3 +1,3 @@
 function detail(item) {
-  $("#"+item).toggle();
+  alert('Yahoo!');
 }

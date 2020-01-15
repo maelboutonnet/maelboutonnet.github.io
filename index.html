@@ -2,7 +2,7 @@
 <html>
     <head>
       <link rel="stylesheet" type="text/css" href="cv.css"/>
-      <script src="jquery-3.4.1.min.js"></script>
+      <script src="https://kit.fontawesome.com/675fe5befd.js" crossorigin="anonymous"></script>
       <script src="details.js"></script>
     </head>
     <body>
@@ -12,36 +12,80 @@
             <ul>
                 <li>33 ans</li>
                 <li>Permis B</li>
-                <li>06.72.03.12.67</li>
                 <li><a href="mailto:boutonnet.mael@gmail.com">boutonnet.mael@gmail.com</a></li>
             </ul>
         </p>
         <p class="experience">
             <h2>Expérience professionnelle</h2>
-              <h3>Lead Developper - ALMAVIA (depuis 2013)</h3>
-              <ul>
-                  <li>Projets d'intégration CRM (MGC / Opac S&L / Bourse Direct / ProBTP)</li>
-                  <li>Outillage interne de pilotage financier de l'entreprise (Cockpit)</li>
-              </ul>
-              <h3>Assistant de recherche - IRIT / Ruwido (2011 - 2013)</h3>
-              <ul>
-                  <li>Prototypage d'une télécommande multi-appareil sur Android
-                    <a href="javascript:detail('detail_remotecontrol');">(détail)</a>
-                    <p id="detail_remotecontrol">
-                      Un peu de détail peut être ?
-                    </p>
-                  </li>
-                  <li>Conception et réalisation d'un clavier logiciel pour personnes handicapées</li>
-              </ul>
+                <fieldset>
+                    <legend>Lead Developper - ALMAVIA (depuis 2013)</legend>
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="javascript:detail()">
+                                <span class="fa-li"><i class="far fa-plus-square"></i></span>
+                            </a>
+                            Pro BTP
+                        </li>
+                        <li>
+                            <a href="javascript:detail()">
+                                <span class="fa-li"><i class="far fa-plus-square"></i></span>
+                            </a>
+                            Protection 24
+                        </li>
+                        <li>
+                            <a href="javascript:detail()">
+                                <span class="fa-li"><i class="far fa-plus-square"></i></span>
+                            </a>
+                            Outillage interne de pilotage financier de l'entreprise (Cockpit)
+                        </li>
+                        <li>
+                            <a href="javascript:detail()">
+                                <span class="fa-li"><i class="far fa-plus-square"></i></span>
+                            </a>
+                            Bourse Direct
+                        </li>
+                        <li>
+                            <a href="javascript:detail()">
+                                <span class="fa-li"><i class="far fa-plus-square"></i></span>
+                            </a>
+                            Opac S&L
+                        </li>
+                        <li>
+                            <a href="javascript:detail()">
+                                <span class="fa-li"><i class="far fa-plus-square"></i></span>
+                            </a>
+                            MGC
+                        </li>
+                    </ul>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Assistant de recherche - IRIT / Ruwido (2010 - 2012)</legend>
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="javascript:detail()">
+                                <span class="fa-li"><i class="far fa-plus-square"></i></span>
+                            </a>
+                            Prototypage d'une télécommande multi-appareil sur Android                        
+                        </li>
+                        <li>
+                            <a href="javascript:detail()">
+                                <span class="fa-li"><i class="far fa-plus-square"></i></span>
+                            </a>
+                            Conception et réalisation d'un clavier logiciel pour personnes handicapées
+                        </li>
+                    </ul>
+                </fieldset>
         </p>
         <p class="skills">
             <h2>Compétences</h2>
             <ul>
-                <li>Java - J2E</li>
-                <li>SQL</li>
-                <li>HTML - Javascript (jQuery) - CSS</li>
-                <li>SVN / GIT</li>
-                <li>Websockets / REST / SOAP</li>
+                <li>Java - J2E (Hibernate) - Web (HTML / JS / CSS)</li>
+                <li>SQL (Postgres / SQL Server / Oracle)</li>
+                <li>Réseau (Websockets / REST / SOAP)</li>
+                <li>Serveurs applicatifs (Tomcat / JBoss)</li>
+                <li>Versionning (SVN / GIT) - Ressource control (Maven)</li>
+                
             </ul>
         </p>
         <p class="interests">
