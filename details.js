@@ -1,3 +1,3 @@
 function detail(item) {
-  alert('Yahoo!');
+  item.classList.toggle('detail');
 }
