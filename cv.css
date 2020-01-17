@@ -4,6 +4,11 @@ fieldset {
   border-radius: 10px;
   }
 
-.detail {
+.hidden {
   display: none;
+}
+
+footer {
+  font-size: 11px;
+  text-align: right;
 }
