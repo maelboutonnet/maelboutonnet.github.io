@@ -1,11 +1,15 @@
 fieldset {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
-  }
+  width: 75%;
+  /*margin: auto;*/
+}
 
 .hidden {
   display: none;
+}
+
+.fieldsetFooter {
+  text-align: right;
 }
 
 footer {
