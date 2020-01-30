@@ -1,3 +1,7 @@
+body {
+  font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
 h1 {
   margin-left: 25%;
   width: 50%;
@@ -19,7 +23,7 @@ footer {
   text-align: right;
 }
 
-li { 
+li {
   list-style-type: none;
 }
 
@@ -41,5 +45,3 @@ legend {
 .fieldsetFooter {
   text-align: right;
 }
-
-
