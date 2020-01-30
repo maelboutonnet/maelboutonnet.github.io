@@ -1,7 +1,37 @@
+h1 {
+  margin-left: 25%;
+  width: 50%;
+  text-align: center;
+}
+
+h2 {
+  float: left;
+}
+
 fieldset {
   border-radius: 10px;
-  width: 75%;
-  /*margin: auto;*/
+  margin-left: 25%;
+  width: 50%;
+}
+
+footer {
+  font-size: 11px;
+  text-align: right;
+}
+
+li { 
+  list-style-type: none;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.general {
+  column-count: 2;
+  margin-left: 25%;
+  width: 50%;
 }
 
 .hidden {
@@ -12,7 +42,4 @@ fieldset {
   text-align: right;
 }
 
-footer {
-  font-size: 11px;
-  text-align: right;
-}
+
