@@ -1,166 +1,132 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <link rel="stylesheet" type="text/css" href="cv.css"/>
-      
-      <script src="https://kit.fontawesome.com/675fe5befd.js" crossorigin="anonymous"></script>
-      <script src="details.js"></script>
-    </head>
-    <body>
-        <h1>Maël BOUTONNET - Ingénieur Java / J2E</h1>
-        <ul class="general">
-            <li>33 ans</li>
-            <li>Permis B</li>
-            <li><a href="mailto:mael.boutonnet.pro@gmail.com">mael.boutonnet.pro@gmail.com</a></li>
-            <li>Anglais courant</li>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Maël BOUTONNET</title>
+ 
+  <link rel="stylesheet" href="index.css">
+</head>
+<script src="dialog_detail.js"></script> 
+<body>
+  <div class="container">
+
+    <div class="left-column">
+      <div class="card">
+        <h1>Maël BOUTONNET</h1>
+        <ul>
+          <li><strong>Tél :</strong> +33 6 72 03 12 67</li>
+          <li><strong>Email :</strong> boutonnet.mael@gmail.com</li>
+          <li><strong>Adresse :</strong> 13 rue des Fileurs 28000 CHARTRES</li>
+          <li><strong>Âge :</strong> 38 ans</li>
+          <li><a href="https://maelboutonnet.github.io/CV.pdf" target="_blank">Télécharger le PDF</a></li>
         </ul>
-            <h2>Expérience & formation</h2>
-            <fieldset>
-                <legend>Développeur Senior - ALMAVIA (depuis 2013)</legend>
-                <div>Projets</div>
-                <ul class="fa-ul">
-                    <li>
-                        <span class="fa-li" onclick="javascript:detail(this)"><i class="far fa-plus-square"></i></span>
-                        Expertise produit
-                        <div class="detail hidden">
+      </div>
 
-                        </div>
-                    </li>
-                    <li>
-                        <span class="fa-li" onclick="javascript:detail(this)"><i class="far fa-plus-square"></i></span>
-                        Travaux de développement
-                        <div class="detail hidden">
-                            Webservices, traitements métiers...
-                        </div>
-                    </li>
-                    <li>
-                        <span class="fa-li" onclick="javascript:detail(this)"><i class="far fa-plus-square"></i></span>
-                        Recette technique
-                        <div class="detail hidden">
-                            Validation du respect des spécifications techniques, tests d'intégration, tests de charge.
-                        </div>
-                    </li>
-                    <li>
-                        <span class="fa-li" onclick="javascript:detail(this)"><i class="far fa-plus-square"></i></span>
-                        Optimisation & complexité
-                        <div class="detail hidden">
-                            Performance, complexité algorithmique, complexité mémoire
-                        </div>
-                    </li>
-                </ul>
-                <div>Accompagnement de l'équipe de développement</div>
-                <ul class="fa-ul">
-                    <li>
-                        <span class="fa-li" onclick="javascript:detail(this)"><i class="far fa-plus-square"></i></span>
-                        Accompagnement et assistance
-                        <div class="detail hidden">
-                            
-                        </div>
-                    </li>
-                    <li>
-                        <span class="fa-li" onclick="javascript:detail(this)"><i class="far fa-plus-square"></i></span>
-                        Relecture de code
-                        <div class="detail hidden">
-                            
-                        </div>
-                    </li>
-                </ul>
-            </fieldset>
-            <fieldset>
-                <legend>Assistant de recherche - IRIT / Ruwido (2010 - 2012)</legend>
-                <div>Développement logiciel dans un cycle de vie itératif</div>
-                <ul class="fa-ul">
-                    <li>
-                        <span class="fa-li" onclick="javascript:detail(this)"><i class="far fa-plus-square"></i></span>
-                        Prototypage d'une télécommande multi-appareil sur Android
-                        <div class="detail hidden">
-                            Au sein d'une équipe réduite, j'ai participé à l'élaboration d'un <span title="Proof of Concept">POC</span> en HTML / JavaScript visant à démontrer ou réfuter le potentiel d'un smartphone comme télécommande.
-                        </div>
-                    </li>
-                    <li>
-                        <span class="fa-li" onclick="javascript:detail(this)"><i class="far fa-plus-square"></i></span>
-                        Conception et réalisation d'un clavier logiciel pour personnes handicapées
-                        <div class="detail hidden">
-                            Au sein de l'équipe de recherche ELIPSE de l'<a href="https://www.irit.fr/" target="_blank">IRIT</a>, j'ai travaillé au prototypage et au développement d'un clavier logiciel (en Java). Ce programme était interfacé avec plusieurs systèmes d'aide à la saisie de texte (Delphi / Flash) déjà existants (ex: VITIPI). Ce projet a été poursuivi par l'équipe même après mon départ
-                        </div>
-                    </li>
-                </ul>
-            </fieldset>
-            <fieldset>
-                <legend>Master 2 Interactions Homme-Machine - ENAC (2011-2012)</legend>
-                <ul class="fa-ul">
-                    <li>
-                        <span class="fa-li" onclick="javascript:detail(this)"><i class="far fa-plus-square"></i></span>
-                        Spécification & prototypage
-                        <div class="detail hidden">
-                            <ul>
-                                <li>Conception centrée utilisateur : modèles cognitifs, modalités d'interaction, modèles humains et perception, analyse de l'activité, analyse des situations d'utilisations</li>
-                                <li>Participative design : ateliers / brainstormings /entretiens / design de scénarii </li>
-                                <li>LoFi prototyping (Balsamiq Mockup) / Conception papier / Prototypes logiciels - quick&dirty</li>
-                                <li>HiFi prototyping / Scénarios métiers</li>
-                            </ul>    
-                        </div>
-                    </li>
-                    <li>
-                        <span class="fa-li" onclick="javascript:detail(this)"><i class="far fa-plus-square"></i></span>
-                        Conception & Développement
-                        <div class="detail hidden">
-                            <ul>
-                                <li>Conception : UML, modélisation objet, design patterns, modèles de taches</li>
-                                <li>POO : Java / Génie de systèmes interactifs & critiques</li>
-                                <li>WEB : JS & CSS  pour l'IHM</li>
-                                <li>Systèmes interactifs mobiles</li>
-                                <li>Systèmes interactifs mixtes</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <span class="fa-li" onclick="javascript:detail(this)"><i class="far fa-plus-square"></i></span>
-                        Evaluation de logiciel
-                        <div class="detail hidden">
-                            <ul>
-                                <li>Evaluation de l'utilisabilité (Attrakdiff) </li>
-                                <li>Gaming Usability</li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </fieldset>  
-        
-        <h2>Compétences</h2>
-        <fieldset>
-            <ul>
-                <li>Java - J2E (Hibernate) - Web (HTML / JS / CSS)</li>
-                <li>SQL (Postgres / SQL Server / Oracle)</li>
-                <li>Réseau (REST / Websockets / SOAP)</li>
-                <li>Serveurs applicatifs (Tomcat / JBoss) - Systèmes (Unix)</li>
-                <li>Versionning (SVN / GIT) - Ressource control (Maven)</li>
-            </ul>
-        </fieldset>
-        <h2>Philosophie & Side projects</h2>
-        <fieldset>
-            <ul>
-                <li>Software craftmanship</li>
-                <li>Conception centrée utilisateur</li>
-                <li>Intelligence artificielle pour le site Pokemon Showdown.
-                    <div class="detail hidden">
-                        <a href="https://github.com/maelboutonnet/showdown-ai" target="_blank">Lien GitHub</a>
-                        <p>
-                            L'objectif de ce projet est d'appréhender deux concepts qui me sont inconnus : les websockets et le machine learning.
-                        </p>
-                    </div>
-                </li>
-                <li>Clavier logiciel assistant la mise en forme et la saisie de texte pour utilisateurs handicapés 
-                    <div class="detail hidden">
-                        <p>
-                            L'objectif de ce projet est de mesurer ma progression depuis mes études jusqu'à maintenant.
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </fieldset>
-        Une question ? <a href="mailto:mael.boutonnet.pro@gmail.com">Ecrivez-moi un e-mail</a>
+      <div class="card">
+        <h2>Hard Skills</h2>
+        <ul>
+          <li>Back-end : Java / Python</li>
+          <li>Front-end : Angular / TypeScript</li>
+          <li>APIs : Rest / Soap / Sockets</li>
+          <li>SQL : Postgres / Oracle</li>
+          <li>Systèmes : Unix / Windows</li>
+          <li>CI/CD : Git / Jenkins / Sonar</li>
+          <li>Dependency managers : Mvn / Npm</li>
+        </ul>
+      </div>
 
-        <footer>Hosted with GitHub Pages. Hand-crafted by Maël BOUTONNET.</footer>
-    </body>
+      <div class="card">
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>Pédagogie</li>
+          <li>Esprit critique et analyse</li>
+          <li>Problem-solving</li>
+          <li>Communication technique & fonctionnelle</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Langues</h2>
+        <ul>
+          <li>Français : Natif</li>
+          <li>Anglais : Courant</li>
+          <li>Espagnol : Basique</li>
+        </ul>
+      </div>
+	  
+	  <div class="card">
+        <h2>Certifications</h2>
+        <ul>
+          <li>04/25 – Salesforce Certified AI Associate</li>
+          <li>03/25 – Hubspot SalesHUB</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Loisirs</h2>
+        <ul>
+          <li>Musique</li>
+          <li>Jeux-vidéos</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="right-column">
+	  <div class="card">
+        <h2>Lead développeur</h2>
+      </div>
+      <div class="card">
+        <h2>Expérience Professionnelle</h2>
+        <div>
+          <h3>Team leader – Almavia CX</h3>
+          <p>2022 – aujourd’hui | Paris</p>
+          <p>Management d’une équipe (10-15 membres), développement personnel, trajectoire professionnelle, soutien technique.<br>  
+          <strong>Tech :</strong> Java 8–21, Angular 16, Rest / Soap, Maven, Python, Postgres / Oracle</p>
+        </div>
+        <div>
+          <h3>Lead developer – Almavia CX</h3>
+          <p>2016 – 2022 | Paris</p>
+          <p>Encadrement d’équipe, projets d’intégration GRC, maquettages avant-vente.<br>
+          <strong>Tech :</strong> Java 8–11, Maven, Sonar, Tomcat, Soap, REST, Postgres / Oracle</p>
+        </div>
+        <div>
+          <h3>Développeur – Almavia</h3>
+          <p>2013 – 2016 | Paris</p>
+          <p>Intégration GRC, divers contextes métiers.<br>
+          <strong>Tech :</strong> Java 5–8, jQuery, Tomcat, Soap, Postgres</p>
+        </div>
+        <div>
+          <h3>Stagiaire – Ruwido</h3>
+          <p>2012 | Toulouse</p>
+          <p>Développement d'une télécommande smartphone.<br>
+          <strong>Tech :</strong> HTML5 / JS / CSS</p>
+        </div>
+        <div>
+          <h3>Stagiaire – IRIT</h3>
+          <p>2011 | Toulouse</p>
+          <p>Développement d'un clavier virtuel pour handicapés.<br>
+          <strong>Tech :</strong> Java 6, Swing</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Formation</h2>
+        <p>Master 2 Informatique - Université de Toulouse 3 / ENAC (2006–2012)<br>
+        <strong>Spécialité :</strong> Interaction Homme Machine</p>
+      </div>
+
+      
+
+      <div class="card">
+        <h2>Références</h2>
+        <ul>
+          <li>Directrice de projet et ancienne manager (Contacts sur demande)</li>
+          <li>Lead développeuse et membre de l’équipe (Contacts sur demande)</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</body>
 </html>
